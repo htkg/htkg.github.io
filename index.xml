@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hirohane Takagi (高木洋羽)</title>
-    <link>https://hotekagi.github.io/</link>
-      <atom:link href="https://hotekagi.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Hirohane Takagi (高木洋羽)</description>
+    <title>Hirohane Takagi</title>
+    <link>https://htkg.github.io/</link>
+      <atom:link href="https://htkg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hirohane Takagi</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hotekagi.github.io/media/icon_hu_645fa481986063ef.png</url>
-      <title>Hirohane Takagi (高木洋羽)</title>
-      <link>https://hotekagi.github.io/</link>
+      <url>https://htkg.github.io/media/icon_hu_645fa481986063ef.png</url>
+      <title>Hirohane Takagi</title>
+      <link>https://htkg.github.io/</link>
     </image>
     
     <item>
       <title>Experience</title>
-      <link>https://hotekagi.github.io/experience/</link>
+      <link>https://htkg.github.io/experience/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://hotekagi.github.io/experience/</guid>
+      <guid>https://htkg.github.io/experience/</guid>
       <description></description>
     </item>
     
