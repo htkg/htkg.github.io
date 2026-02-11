@@ -1,0 +1,23 @@
+/* #publications .max-w-prose {
+  max-width: clamp(65ch, 85vw, 90ch);
+}
+ */
+/* #domestic .max-w-prose,
+#domestic .container,
+#domestic .max-w-prose {
+  max-width: 100% !important;
+}
+#domestic .px-6 {
+  padding-left: 20rem !important;
+  padding-right: 20rem !important;
+}
+
+#other-activities .max-w-prose,
+#other-activities .container,
+#other-activities .max-w-prose {
+  max-width: 100% !important;
+}
+#other-activities .px-6 {
+  padding-left: 20rem !important;
+  padding-right: 20rem !important;
+} */
