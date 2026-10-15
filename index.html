@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: October 10, 2026 --><html lang="en-us" dir="ltr"
+<!-- Last Published: October 15, 2026 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head>
@@ -198,7 +198,7 @@
     <meta property="twitter:image" content="https://htkg.github.io/media/icon_hu_eb5a01d5de45eeca.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2026-10-10T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2026-10-15T00:00:00&#43;00:00" />
     
   
 
@@ -441,26 +441,55 @@
       "givenName": "Hirohane",
       "familyName": "Takagi",
       "url": "https://htkg.github.io/",
-      "jobTitle": "MSc student in Computer Science",
-      "affiliation": [
-        {"@type": "CollegeOrUniversity", "name": "The University of Tokyo"},
-        {"@type": "ResearchOrganization", "name": "RIKEN Center for Advanced Intelligence Project (AIP)"}
-      ],
+      "jobTitle": "PhD student in Engineering",
+      "affiliation": {"@type": "CollegeOrUniversity", "name": "The University of Tokyo"},
       "alumniOf": {"@type": "CollegeOrUniversity", "name": "The University of Tokyo"},
       "knowsAbout": [
+        "Generative Models",
         "Statistical Machine Learning",
         "Large Language Models",
-        "Mechanistic Interpretability",
         "Explainable AI",
-        "Sampling Algorithms",
+        "Interpretability",
+        "Inference-time Control of Foundation Models",
         "Diffusion Models",
-        "Human-AI Interaction"
+        "Sampling Algorithms"
       ],
       "sameAs": [
         "https://github.com/htkg",
         "https://x.com/hhhhtkg",
         "https://www.linkedin.com/in/hirohane-takagi"
       ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://htkg.github.io/#pu-steering",
+      "name": "Asymptotically Exact Negative Guidance of Diffusion Models via Positive-Unlabeled Learning",
+      "headline": "Principled formulation of negative prompting in diffusion models, combining positive-unlabeled (PU) learning and sequential Monte Carlo (SMC)",
+      "author": [
+        {"@id": "https://htkg.github.io/#person"},
+        {"@type": "Person", "name": "Masashi Sugiyama"}
+      ],
+      "datePublished": "2026-12-08",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "Proceedings of the 40th Conference on Neural Information Processing Systems (NeurIPS 2026)"
+      },
+      "identifier": "arXiv:2610.19802",
+      "url": "https://arxiv.org/abs/2610.19802",
+      "sameAs": [
+        "https://neurips.cc/virtual/2026/loc/sydney/poster/148530",
+        "https://arxiv.org/abs/2610.19802",
+        "https://github.com/htkg/pu-steering"
+      ],
+      "abstract": "A statistical foundation for AI safety in generative models: telling them what to avoid, with guarantees. Rather than pushing each sample away from an unwanted condition by heuristic, it samples from an explicit target with tunable avoidance strength, and plugs into any existing negative-guidance method. During generation, the in-progress samples train an evaluator via weakly supervised learning, updated on the fly to judge which samples are unwanted. It improves avoidance, quality, and diversity, and provably converges to the target.",
+      "keywords": "negative prompting, negative guidance, diffusion models, positive-unlabeled learning, sequential Monte Carlo, generative AI safety, controllable generation, sampling, score-based models",
+      "about": [
+        {"@type": "Thing", "name": "Negative guidance of diffusion models"},
+        {"@type": "Thing", "name": "Positive-unlabeled learning"},
+        {"@type": "Thing", "name": "Sequential Monte Carlo"}
+      ],
+      "mainEntityOfPage": "https://htkg.github.io/#publications"
     },
     {
       "@type": "ScholarlyArticle",
@@ -1139,21 +1168,20 @@ Alongside my research, I’ve been working professionally for several years, bui
   <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><ol>
 <li>
 <p><u>Hirohane Takagi</u>, Masashi Sugiyama. (2026, December). Asymptotically Exact Negative Guidance of Diffusion Models via Positive-Unlabeled Learning. In Proceedings of the 40th Conference on Neural Information Processing Systems (NeurIPS 2026).<br>
-<a href="https://neurips.cc/virtual/2026/loc/sydney/poster/148530" target="_blank" rel="noopener">Conference Page</a></p>
+<a href="https://neurips.cc/virtual/2026/loc/sydney/poster/148530" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0"/></svg>Poster</a>, <a href="https://arxiv.org/abs/2610.19802" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><g style="stroke-width:.645161"><path fill="currentColor" d="M119.65 351.996a14.333 14.333 0 0 1-13.502-8.676c-2.196-5.27-.62-8.967 4.197-15.865 7.055-10.38 78.824-96.562 78.824-96.562l-15.882-14.864c-13.381-13.378-13.956-31.333-1.51-43.775l18.492-17.613-51.598-63.377c-4.005-4.268-6.485-11.756-4.248-17.131a14.643 14.643 0 0 1 13.684-9.07 13.05 13.05 0 0 1 9.838 4.86l61.369 57.057 94.576-90.07A17.51 17.51 0 0 1 325.773 32c1.604.004 3.198.245 4.732.715a17.844 17.844 0 0 1 11.871 12.252 16.52 16.52 0 0 1-4.181 15.283l-83.086 100.012 14.879 13.834c11.096 10.003 11.154 27.39.127 37.469l-16.295 15.63 56.256 66.444.074.086.066.09c5.028 6.531 7.432 11.561 4.84 17.94a23.335 23.335 0 0 1-15.256 11.85c-.676.092-1.36.137-2.043.138l-.004-.012a18.402 18.402 0 0 1-11.775-5.24l-.13-.108-.124-.111-65.207-59.127-89.896 86.24s-5.334 6.478-10.971 6.611zm178.104-33.041a11.33 11.33 0 0 0 1.432-.096 18.907 18.907 0 0 0 11.431-8.91c1.45-3.562 1.003-6.457-4.197-13.215l-56.059-66.218-26.375 25.302 64.955 58.906a14.045 14.045 0 0 0 8.813 4.217v.014zm-105.318-91.553 142.01-170.158c2.787-3.49 4.53-6.98 3.342-10.912a13.062 13.062 0 0 0-8.686-9.057 11.366 11.366 0 0 0-3.336-.506 12.77 12.77 0 0 0-8.576 3.588L175.157 175.642c-11.172 11.172-9.482 26.02 1.393 36.895z" style="stroke-width:.416233" transform="matrix(1.55 0 0 -1.55 -123.2 553.6)"/></g></svg>arXiv</a>, <a href="https://github.com/htkg/pu-steering" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg>Code</a></p>
 </li>
 <li>
 <p><u>Hirohane Takagi</u>, Atsushi Nitanda. (2026, April). Alternating Diffusion for Proximal Sampling with Zeroth Order Queries. The 14th International Conference on Learning Representations.<br>
-<a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/1f961dc9f56c8cdb125438888de7d60e-Abstract-Conference.html" target="_blank" rel="noopener">Paper</a>, <a href="https://iclr.cc/virtual/2026/poster/10009836" target="_blank" rel="noopener">Conference Page</a>, <a href="https://arxiv.org/abs/2603.19633" target="_blank" rel="noopener">Arxiv</a>, <a href="https://github.com/htkg/zod-ps" target="_blank" rel="noopener">Code (GitHub)</a></p>
+<a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/1f961dc9f56c8cdb125438888de7d60e-Abstract-Conference.html" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>Paper</a>, <a href="https://iclr.cc/virtual/2026/poster/10009836" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0"/></svg>Poster</a>, <a href="https://arxiv.org/abs/2603.19633" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><g style="stroke-width:.645161"><path fill="currentColor" d="M119.65 351.996a14.333 14.333 0 0 1-13.502-8.676c-2.196-5.27-.62-8.967 4.197-15.865 7.055-10.38 78.824-96.562 78.824-96.562l-15.882-14.864c-13.381-13.378-13.956-31.333-1.51-43.775l18.492-17.613-51.598-63.377c-4.005-4.268-6.485-11.756-4.248-17.131a14.643 14.643 0 0 1 13.684-9.07 13.05 13.05 0 0 1 9.838 4.86l61.369 57.057 94.576-90.07A17.51 17.51 0 0 1 325.773 32c1.604.004 3.198.245 4.732.715a17.844 17.844 0 0 1 11.871 12.252 16.52 16.52 0 0 1-4.181 15.283l-83.086 100.012 14.879 13.834c11.096 10.003 11.154 27.39.127 37.469l-16.295 15.63 56.256 66.444.074.086.066.09c5.028 6.531 7.432 11.561 4.84 17.94a23.335 23.335 0 0 1-15.256 11.85c-.676.092-1.36.137-2.043.138l-.004-.012a18.402 18.402 0 0 1-11.775-5.24l-.13-.108-.124-.111-65.207-59.127-89.896 86.24s-5.334 6.478-10.971 6.611zm178.104-33.041a11.33 11.33 0 0 0 1.432-.096 18.907 18.907 0 0 0 11.431-8.91c1.45-3.562 1.003-6.457-4.197-13.215l-56.059-66.218-26.375 25.302 64.955 58.906a14.045 14.045 0 0 0 8.813 4.217v.014zm-105.318-91.553 142.01-170.158c2.787-3.49 4.53-6.98 3.342-10.912a13.062 13.062 0 0 0-8.686-9.057 11.366 11.366 0 0 0-3.336-.506 12.77 12.77 0 0 0-8.576 3.588L175.157 175.642c-11.172 11.172-9.482 26.02 1.393 36.895z" style="stroke-width:.416233" transform="matrix(1.55 0 0 -1.55 -123.2 553.6)"/></g></svg>arXiv</a>, <a href="https://github.com/htkg/zod-ps" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg>Code</a></p>
 </li>
 <li>
 <p><u>Hirohane Takagi*</u>, Gouki Minegishi*, Shota Kizawa, Issey Sukeda, Hitomi Yanaka. (2025, December). Interpreting Multi-Attribute Confounding through Numerical Attributes in Large Language Models. In Proceedings of International Joint Conference on Natural Language Processing &amp; Asia-Pacific Chapter of the Association for Computational Linguistics (pp. 1098-1115).<br>
-<a href="https://aclanthology.org/2025.ijcnlp-long.60/" target="_blank" rel="noopener">Paper</a>, <a href="https://arxiv.org/abs/2511.04053" target="_blank" rel="noopener">Arxiv</a>, <a href="https://github.com/htkg/num_attrs" target="_blank" rel="noopener">Code (GitHub)</a>
-<a href="https://underline.io/events/512/posters/21350/poster/138092-interpreting-multi-attribute-confounding-through-numerical-attributes-in-large-language-models" target="_blank" rel="noopener">Conference Poster</a><br>
+<a href="https://aclanthology.org/2025.ijcnlp-long.60/" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>Paper</a>, <a href="https://underline.io/events/512/posters/21350/poster/138092-interpreting-multi-attribute-confounding-through-numerical-attributes-in-large-language-models" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0"/></svg>Poster</a>, <a href="https://arxiv.org/abs/2511.04053" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><g style="stroke-width:.645161"><path fill="currentColor" d="M119.65 351.996a14.333 14.333 0 0 1-13.502-8.676c-2.196-5.27-.62-8.967 4.197-15.865 7.055-10.38 78.824-96.562 78.824-96.562l-15.882-14.864c-13.381-13.378-13.956-31.333-1.51-43.775l18.492-17.613-51.598-63.377c-4.005-4.268-6.485-11.756-4.248-17.131a14.643 14.643 0 0 1 13.684-9.07 13.05 13.05 0 0 1 9.838 4.86l61.369 57.057 94.576-90.07A17.51 17.51 0 0 1 325.773 32c1.604.004 3.198.245 4.732.715a17.844 17.844 0 0 1 11.871 12.252 16.52 16.52 0 0 1-4.181 15.283l-83.086 100.012 14.879 13.834c11.096 10.003 11.154 27.39.127 37.469l-16.295 15.63 56.256 66.444.074.086.066.09c5.028 6.531 7.432 11.561 4.84 17.94a23.335 23.335 0 0 1-15.256 11.85c-.676.092-1.36.137-2.043.138l-.004-.012a18.402 18.402 0 0 1-11.775-5.24l-.13-.108-.124-.111-65.207-59.127-89.896 86.24s-5.334 6.478-10.971 6.611zm178.104-33.041a11.33 11.33 0 0 0 1.432-.096 18.907 18.907 0 0 0 11.431-8.91c1.45-3.562 1.003-6.457-4.197-13.215l-56.059-66.218-26.375 25.302 64.955 58.906a14.045 14.045 0 0 0 8.813 4.217v.014zm-105.318-91.553 142.01-170.158c2.787-3.49 4.53-6.98 3.342-10.912a13.062 13.062 0 0 0-8.686-9.057 11.366 11.366 0 0 0-3.336-.506 12.77 12.77 0 0 0-8.576 3.588L175.157 175.642c-11.172 11.172-9.482 26.02 1.393 36.895z" style="stroke-width:.416233" transform="matrix(1.55 0 0 -1.55 -123.2 553.6)"/></g></svg>arXiv</a>, <a href="https://github.com/htkg/num_attrs" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg>Code</a><br>
 Also featured in the AIP Symposium <a href="https://aip.riken.jp/uploads/20260313symposium_40_poster.pdf" target="_blank" rel="noopener">poster</a></p>
 </li>
 <li>
 <p><u>Hirohane Takagi</u>, Shoji Moriya, Takuma Sato, Manabu Nagao, Keita Higuchi. (2025, March). A Framework for Efficient Development and Debugging of Role-Playing Agents with Large Language Models. In Proceedings of the 30th International Conference on Intelligent User Interfaces (pp. 70-88).<br>
-<a href="https://dl.acm.org/doi/10.1145/3708359.3712119" target="_blank" rel="noopener">Paper</a>, <a href="https://tech.preferred.jp/ja/blog/efficient-dev-roleplay-system/" target="_blank" rel="noopener">PFN Tech Blog (Japanese)</a></p>
+<a href="https://dl.acm.org/doi/10.1145/3708359.3712119" target="_blank" rel="noopener"><svg style="height:1em;display:inline-block;vertical-align:-0.125em;margin-right:0.25em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>Paper</a>, <a href="https://tech.preferred.jp/ja/blog/efficient-dev-roleplay-system/" target="_blank" rel="noopener">PFN Tech Blog (Japanese)</a></p>
 </li>
 </ol>
 </div>
@@ -1277,6 +1305,10 @@ Also featured in the AIP Symposium <a href="https://aip.riken.jp/uploads/2026031
 
   
   <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><ol>
+<li>
+<p><u>高木洋羽</u>, 杉山将, 正・ラベルなし学習に基づく漸近的厳密性を有する拡散モデルの負方向誘導, 第29回情報論的学習理論ワークショップ (IBIS2026), (2026.10).<br>
+<a href="https://ibisml.org/ibis2026/posters/" target="_blank" rel="noopener">プログラム (1-180)</a></p>
+</li>
 <li>
 <p><u>高木洋羽</u>, 佐藤大地, 長谷川貴巨, 大福泰樹, 武田峻悟, 山内有倫, 高橋孝樹, 国藤靖彦, 機械学習と波形補正を用いたスマートメーター計測値からPV出力と実需要への分離推定, 令和7年電気学会全国大会, (2025.3).<br>
 <a href="https://gakkai-web.net/iee/program/2025/data/html/general/general9.html" target="_blank" rel="noopener">要旨(6-102)</a>，松尾研究所と東京電力パワーグリッドの共同研究⚡️<br>
